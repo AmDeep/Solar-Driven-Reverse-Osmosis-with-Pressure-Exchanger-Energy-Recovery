@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 640" width="900" height="640">
+<title>SPRO System — P&ID Sheet 1</title>
+<rect width="900" height="640" fill="#fafafa"/>
+<rect x="8" y="8" width="884" height="584" fill="white" stroke="#333" stroke-width="1.5"/>
+
+<!-- Title block -->
+<rect x="8" y="588" width="884" height="44" fill="#2c3e50"/>
+<text x="450" y="607" text-anchor="middle" font-family="Arial" font-size="12" font-weight="bold" fill="white">ARCHMEDIS R2 | SOLAR SPRO SYSTEM | PROCESS &amp; INSTRUMENTATION DIAGRAM | SHEET 1/1</text>
+<text x="450" y="624" text-anchor="middle" font-family="Arial" font-size="9" fill="#bdc3c7">DWG: ARCH-R2-PID-001 Rev A | Scale NTS | 20,000 L/day | Instruments per ISA 5.1 | June 2026</text>
+
+<!-- Defs -->
+<defs>
+  <marker id="aC" markerWidth="7" markerHeight="7" refX="6" refY="3.5" orient="auto"><path d="M0,1 L6,3.5 L0,6 z" fill="#1565c0"/></marker>
+  <marker id="aG" markerWidth="7" markerHeight="7" refX="6" refY="3.5" orient="auto"><path d="M0,1 L6,3.5 L0,6 z" fill="#2e7d32"/></marker>
+  <marker id="aB" markerWidth="7" markerHeight="7" refX="6" refY="3.5" orient="auto"><path d="M0,1 L6,3.5 L0,6 z" fill="#e67e22"/></marker>
+  <marker id="aY" markerWidth="7" markerHeight="7" refX="6" refY="3.5" orient="auto"><path d="M0,1 L6,3.5 L0,6 z" fill="#f39c12"/></marker>
+  <marker id="aP" markerWidth="7" markerHeight="7" refX="6" refY="3.5" orient="auto"><path d="M0,1 L6,3.5 L0,6 z" fill="#6a1b9a"/></marker>
+</defs>
+
+<!-- === SEAWATER SOURCE === -->
+<rect x="20" y="215" width="70" height="55" fill="#e3f2fd" stroke="#1565c0" stroke-width="1.5" rx="4"/>
+<text x="55" y="232" text-anchor="middle" font-family="Arial" font-size="8.5" font-weight="bold" fill="#0d47a1">SEAWATER</text>
+<text x="55" y="244" text-anchor="middle" font-family="Arial" font-size="8" fill="#0d47a1">SOURCE</text>
+<text x="55" y="256" text-anchor="middle" font-family="Arial" font-size="7.5" fill="#1565c0">44.4 m³/day</text>
+<text x="55" y="266" text-anchor="middle" font-family="Arial" font-size="7.5" fill="#1565c0">35 g/L NaCl</text>
+
+<!-- === ANTISCALANT === -->
+<rect x="110" y="165" width="55" height="40" fill="#f3e5f5" stroke="#6a1b9a" stroke-width="1" stroke-dasharray="4,2" rx="3"/>
+<text x="137" y="180" text-anchor="middle" font-family="Arial" font-size="7.5" font-weight="bold" fill="#4a148c">ANTI-</text>
+<text x="137" y="191" text-anchor="middle" font-family="Arial" font-size="7.5" fill="#4a148c">SCALANT</text>
+<text x="137" y="200" text-anchor="middle" font-family="Arial" font-size="7" fill="#6a1b9a">D-01</text>
+<line x1="137" y1="205" x2="137" y2="242" stroke="#6a1b9a" stroke-width="1" stroke-dasharray="3,2" marker-end="url(#aP)"/>
+
+<!-- === LP PUMP (P-01) === -->
+<circle cx="195" cy="242" r="22" fill="#fff8e1" stroke="#f57f17" stroke-width="1.5"/>
+<path d="M180,242 Q195,228 210,242 Q195,256 180,242" fill="#ffe082" stroke="#f57f17" stroke-width="1"/>
+<text x="195" y="238" text-anchor="middle" font-family="Arial" font-size="8" font-weight="bold" fill="#e65100">P</text>
+<text x="195" y="249" text-anchor="middle" font-family="Arial" font-size="7" fill="#e65100">P-01</text>
+<text x="195" y="274" text-anchor="middle" font-family="Arial" font-size="7" fill="#555">2.5 bar | 3 m³/h</text>
+<!-- FI-01 -->
+<circle cx="195" cy="290" r="9" fill="white" stroke="#555" stroke-width="1"/>
+<text x="195" y="294" text-anchor="middle" font-family="Arial" font-size="6.5" fill="#333">FI-01</text>
+<line x1="195" y1="281" x2="195" y2="264" stroke="#555" stroke-width="0.8" stroke-dasharray="2,2"/>
+
+<!-- === UF PRE-TREATMENT (F-01) === -->
+<rect x="240" y="212" width="80" height="70" fill="#ede7f6" stroke="#5c35cc" stroke-width="1.5" rx="6"/>
+<text x="280" y="232" text-anchor="middle" font-family="Arial" font-size="8.5" font-weight="bold" fill="#4527a0">UF PRE-TX</text>
+<text x="280" y="244" text-anchor="middle" font-family="Arial" font-size="8" fill="#512da8">F-01</text>
+<text x="280" y="256" text-anchor="middle" font-family="Arial" font-size="7.5" fill="#5c35cc">Dow FilmTec</text>
+<text x="280" y="267" text-anchor="middle" font-family="Arial" font-size="7.5" fill="#5c35cc">SDI &lt; 3</text>
+<text x="280" y="277" text-anchor="middle" font-family="Arial" font-size="7" fill="#5c35cc">0.02 μm PVDF</text>
+<!-- Instruments -->
+<circle cx="252" cy="200" r="8" fill="white" stroke="#555" stroke-width="1"/>
+<text x="252" y="203.5" text-anchor="middle" font-family="Arial" font-size="6" fill="#333">PT-01</text>
+<line x1="252" y1="208" x2="252" y2="212" stroke="#555" stroke-width="0.8" stroke-dasharray="2,2"/>
+<circle cx="300" cy="200" r="8" fill="white" stroke="#555" stroke-width="1"/>
+<text x="300" y="203.5" text-anchor="middle" font-family="Arial" font-size="6" fill="#333">AT-01</text>
+<line x1="300" y1="208" x2="300" y2="212" stroke="#555" stroke-width="0.8" stroke-dasharray="2,2"/>
+
+<!-- === HP PUMP (P-02) === -->
+<circle cx="378" cy="247" r="26" fill="#ffebee" stroke="#c62828" stroke-width="2"/>
+<path d="M360,247 Q378,228 396,247 Q378,266 360,247" fill="#ffcdd2" stroke="#c62828" stroke-width="1.5"/>
+<text x="378" y="243" text-anchor="middle" font-family="Arial" font-size="9" font-weight="bold" fill="#b71c1c">P</text>
+<text x="378" y="255" text-anchor="middle" font-family="Arial" font-size="8" fill="#c62828">P-02</text>
+<text x="378" y="285" text-anchor="middle" font-family="Arial" font-size="8" font-weight="bold" fill="#c62828">HP PUMP</text>
+<text x="378" y="296" text-anchor="middle" font-family="Arial" font-size="7.5" fill="#c62828">60 bar | 5.5 kW</text>
+<!-- PT-02 -->
+<circle cx="378" cy="210" r="9" fill="white" stroke="#555" stroke-width="1"/>
+<text x="378" y="213.5" text-anchor="middle" font-family="Arial" font-size="6.5" fill="#333">PT-02</text>
+<line x1="378" y1="219" x2="378" y2="221" stroke="#555" stroke-width="0.8" stroke-dasharray="2,2"/>
+<!-- PSV annotation -->
+<rect x="405" y="230" width="45" height="22" fill="#fff3e0" stroke="#e65100" stroke-width="0.8" rx="2"/>
+<text x="427" y="240" text-anchor="middle" font-family="Arial" font-size="6.5" fill="#e65100">PSV-01</text>
+<text x="427" y="249" text-anchor="middle" font-family="Arial" font-size="6" fill="#e65100">set 70 bar</text>
+<line x1="405" y1="241" x2="404" y2="241" stroke="#e65100" stroke-width="0.8"/>
+
+<!-- === PX DEVICE (E-01) === -->
+<rect x="435" y="295" width="75" height="50" fill="#e3f2fd" stroke="#0277bd" stroke-width="1.5" stroke-dasharray="5,2" rx="5"/>
+<text x="472" y="314" text-anchor="middle" font-family="Arial" font-size="8.5" font-weight="bold" fill="#01579b">PX DEVICE</text>
+<text x="472" y="326" text-anchor="middle" font-family="Arial" font-size="8" fill="#0277bd">E-01</text>
+<text x="472" y="338" text-anchor="middle" font-family="Arial" font-size="7.5" fill="#0277bd">η = 96%</text>
+
+<!-- === RO PRESSURE VESSEL (V-01) === -->
+<rect x="540" y="200" width="270" height="105" fill="#e3f2fd" stroke="#1565c0" stroke-width="2" rx="8"/>
+<!-- Element dividers -->
+<line x1="585" y1="200" x2="585" y2="305" stroke="#1565c0" stroke-width="0.8"/>
+<line x1="630" y1="200" x2="630" y2="305" stroke="#1565c0" stroke-width="0.8"/>
+<line x1="675" y1="200" x2="675" y2="305" stroke="#1565c0" stroke-width="0.8"/>
+<line x1="720" y1="200" x2="720" y2="305" stroke="#1565c0" stroke-width="0.8"/>
+<line x1="765" y1="200" x2="765" y2="305" stroke="#1565c0" stroke-width="0.8"/>
+<text x="675" y="222" text-anchor="middle" font-family="Arial" font-size="9.5" font-weight="bold" fill="#0d47a1">RO PRESSURE VESSEL — V-01</text>
+<text x="675" y="236" text-anchor="middle" font-family="Arial" font-size="8" fill="#1565c0">6 × Filmtec SW30XHR-400i | 223 m² active area</text>
+<text x="675" y="249" text-anchor="middle" font-family="Arial" font-size="8" fill="#1565c0">Feed: 44.4 m³/d @ 60 bar | T = 25°C | Recovery: 45%</text>
+<text x="675" y="262" text-anchor="middle" font-family="Arial" font-size="8" fill="#1565c0">Permeate: 20,000 L/d | NaCl rejection: 99.75%</text>
+<text x="675" y="275" text-anchor="middle" font-family="Arial" font-size="8" fill="#1565c0">Brine: 24,400 L/d @ 63.6 g/L | Brine π = 51.6 bar</text>
+<text x="675" y="288" text-anchor="middle" font-family="Arial" font-size="7.5" fill="#1565c0">CP factor 1.49 (Graetz–Lévêque) | Eff. osmotic π = 42.3 bar | NDP = 17.7 bar</text>
+<text x="675" y="300" text-anchor="middle" font-family="Arial" font-size="7" fill="#555">6-element SWRO pressure vessel | FRP Codeline 80S-6 | PN 80 bar</text>
+<!-- Instruments above RO -->
+<g font-family="Arial" font-size="6.5" fill="#333">
+  <circle cx="560" cy="188" r="8" fill="white" stroke="#555" stroke-width="1"/>
+  <text x="560" y="191.5" text-anchor="middle">PI-01</text>
+  <line x1="560" y1="196" x2="560" y2="200" stroke="#555" stroke-width="0.8" stroke-dasharray="2,2"/>
+  <circle cx="610" cy="188" r="8" fill="white" stroke="#555" stroke-width="1"/>
+  <text x="610" y="191.5" text-anchor="middle">PT-03</text>
+  <line x1="610" y1="196" x2="610" y2="200" stroke="#555" stroke-width="0.8" stroke-dasharray="2,2"/>
+  <circle cx="660" cy="188" r="8" fill="white" stroke="#555" stroke-width="1"/>
+  <text x="660" y="191.5" text-anchor="middle">AT-02</text>
+  <line x1="660" y1="196" x2="660" y2="200" stroke="#555" stroke-width="0.8" stroke-dasharray="2,2"/>
+  <circle cx="720" cy="188" r="8" fill="white" stroke="#555" stroke-width="1"/>
+  <text x="720" y="191.5" text-anchor="middle">FI-02</text>
+  <line x1="720" y1="196" x2="720" y2="200" stroke="#555" stroke-width="0.8" stroke-dasharray="2,2"/>
+  <circle cx="780" cy="188" r="8" fill="white" stroke="#555" stroke-width="1"/>
+  <text x="780" y="191.5" text-anchor="middle">PI-02</text>
+  <line x1="780" y1="196" x2="780" y2="200" stroke="#555" stroke-width="0.8" stroke-dasharray="2,2"/>
+</g>
+
+<!-- === PERMEATE STORAGE (T-01) === -->
+<rect x="820" y="200" width="60" height="80" fill="#e8f5e9" stroke="#2e7d32" stroke-width="1.5" rx="4"/>
+<text x="850" y="225" text-anchor="middle" font-family="Arial" font-size="8.5" font-weight="bold" fill="#1b5e20">PERM.</text>
+<text x="850" y="238" text-anchor="middle" font-family="Arial" font-size="8" fill="#1b5e20">T-01</text>
+<text x="850" y="251" text-anchor="middle" font-family="Arial" font-size="7.5" fill="#2e7d32">20,000</text>
+<text x="850" y="262" text-anchor="middle" font-family="Arial" font-size="7.5" fill="#2e7d32">L/day</text>
+<text x="850" y="273" text-anchor="middle" font-family="Arial" font-size="7" fill="#2e7d32">&lt;500 ppm</text>
+<circle cx="850" cy="188" r="9" fill="white" stroke="#555" stroke-width="1"/>
+<text x="850" y="191.5" text-anchor="middle" font-family="Arial" font-size="6.5" fill="#333">LI-01</text>
+<line x1="850" y1="197" x2="850" y2="200" stroke="#555" stroke-width="0.8"/>
+
+<!-- === BRINE DISPOSAL === -->
+<rect x="820" y="355" width="60" height="55" fill="#fff8e1" stroke="#e67e22" stroke-width="1.5" rx="4"/>
+<text x="850" y="374" text-anchor="middle" font-family="Arial" font-size="8.5" font-weight="bold" fill="#e65100">BRINE</text>
+<text x="850" y="387" text-anchor="middle" font-family="Arial" font-size="8" fill="#e65100">DISPOSAL</text>
+<text x="850" y="399" text-anchor="middle" font-family="Arial" font-size="7.5" fill="#e67e22">24,400 L/d</text>
+
+<!-- === PV + BATTERY + INVERTER (bottom section) === -->
+<rect x="20" y="440" width="110" height="60" fill="#fff8e1" stroke="#f57f17" stroke-width="1.5" rx="4"/>
+<text x="75" y="460" text-anchor="middle" font-family="Arial" font-size="8.5" font-weight="bold" fill="#e65100">PV ARRAY</text>
+<text x="75" y="472" text-anchor="middle" font-family="Arial" font-size="8" fill="#e65100">37×400W=14.8kWp</text>
+<text x="75" y="484" text-anchor="middle" font-family="Arial" font-size="7.5" fill="#e67e22">72.9 m² | MPPT</text>
+<rect x="145" y="440" width="110" height="60" fill="#e8f5e9" stroke="#2e7d32" stroke-width="1.5" rx="4"/>
+<text x="200" y="460" text-anchor="middle" font-family="Arial" font-size="8.5" font-weight="bold" fill="#1b5e20">LFP BATTERY</text>
+<text x="200" y="472" text-anchor="middle" font-family="Arial" font-size="8" fill="#1b5e20">BAT-01: 87.5 kWh</text>
+<text x="200" y="484" text-anchor="middle" font-family="Arial" font-size="7.5" fill="#2e7d32">48V | 80% DoD</text>
+<rect x="270" y="440" width="100" height="60" fill="#f3e5f5" stroke="#6a1b9a" stroke-width="1.5" rx="4"/>
+<text x="320" y="460" text-anchor="middle" font-family="Arial" font-size="8.5" font-weight="bold" fill="#4a148c">INVERTER</text>
+<text x="320" y="472" text-anchor="middle" font-family="Arial" font-size="8" fill="#4a148c">INV-01</text>
+<text x="320" y="484" text-anchor="middle" font-family="Arial" font-size="7.5" fill="#6a1b9a">Victron 48/8000</text>
+
+<!-- === FLOW LINES === -->
+<!-- Seawater → LP pump -->
+<line x1="90" y1="242" x2="173" y2="242" stroke="#1565c0" stroke-width="2.5" marker-end="url(#aC)"/>
+<text x="132" y="237" text-anchor="middle" font-family="Arial" font-size="7.5" fill="#1565c0">44.4 m³/d, 35 g/L</text>
+<!-- LP pump → UF -->
+<line x1="217" y1="242" x2="240" y2="242" stroke="#1565c0" stroke-width="2.5" marker-end="url(#aC)"/>
+<!-- UF → HP pump -->
+<line x1="320" y1="247" x2="352" y2="247" stroke="#1565c0" stroke-width="2.5" marker-end="url(#aC)"/>
+<!-- HP pump → RO (double line = HP) -->
+<line x1="404" y1="244" x2="540" y2="244" stroke="#1565c0" stroke-width="3" marker-end="url(#aC)"/>
+<line x1="404" y1="250" x2="540" y2="250" stroke="#1565c0" stroke-width="1" opacity="0.4"/>
+<rect x="440" y="228" width="55" height="14" fill="#c62828" rx="2"/>
+<text x="467" y="238" text-anchor="middle" font-family="Arial" font-size="7" font-weight="bold" fill="white">60 bar HP →</text>
+<!-- RO → permeate -->
+<line x1="810" y1="237" x2="820" y2="237" stroke="#2e7d32" stroke-width="2.5" marker-end="url(#aG)"/>
+<text x="815" y="231" text-anchor="middle" font-family="Arial" font-size="7" fill="#2e7d32">20,000 L/d</text>
+<!-- RO → brine line -->
+<line x1="810" y1="265" x2="870" y2="265" stroke="#e67e22" stroke-width="2"/>
+<line x1="870" y1="265" x2="870" y2="355" stroke="#e67e22" stroke-width="2" marker-end="url(#aB)"/>
+<text x="844" y="310" font-family="Arial" font-size="7.5" fill="#e67e22" transform="rotate(-90,844,310)">brine 24,400 L/d @ 63.6 g/L</text>
+<!-- RO brine → PX (energy recovery line) -->
+<line x1="810" y1="280" x2="840" y2="280" stroke="#e67e22" stroke-width="1.5"/>
+<line x1="840" y1="280" x2="840" y2="345" stroke="#e67e22" stroke-width="1.5"/>
+<line x1="840" y1="345" x2="510" y2="345" stroke="#e67e22" stroke-width="1.5" marker-end="url(#aB)"/>
+<text x="660" y="360" text-anchor="middle" font-family="Arial" font-size="7.5" fill="#e67e22">← brine at high pressure → PX device for energy recovery (η=96%)</text>
+<!-- PX → HP pump suction -->
+<line x1="435" y1="325" x2="408" y2="325" stroke="#1565c0" stroke-width="1.5"/>
+<line x1="408" y1="325" x2="408" y2="273" stroke="#1565c0" stroke-width="1.5" marker-end="url(#aC)"/>
+<text x="390" y="304" font-family="Arial" font-size="7" fill="#1565c0">recovered</text>
+<text x="390" y="314" font-family="Arial" font-size="7" fill="#1565c0">pressure</text>
+<!-- Electrical lines -->
+<line x1="130" y1="470" x2="145" y2="470" stroke="#f39c12" stroke-width="1.5" marker-end="url(#aY)"/>
+<line x1="255" y1="470" x2="270" y2="470" stroke="#f39c12" stroke-width="1.5" marker-end="url(#aY)"/>
+<line x1="370" y1="470" x2="420" y2="470" stroke="#f39c12" stroke-width="1.5"/>
+<line x1="420" y1="470" x2="420" y2="370" stroke="#f39c12" stroke-width="1.5"/>
+<line x1="420" y1="370" x2="390" y2="370" stroke="#f39c12" stroke-width="1.5"/>
+<line x1="390" y1="370" x2="390" y2="273" stroke="#f39c12" stroke-width="1.5" marker-end="url(#aY)"/>
+<text x="430" y="425" font-family="Arial" font-size="7.5" fill="#e67e22">DC power 70 kWh/day → HP pump</text>
+
+<!-- === LEGEND === -->
+<rect x="20" y="380" width="395" height="52" fill="#f9f9f9" stroke="#ccc" stroke-width="1" rx="3"/>
+<text x="210" y="395" text-anchor="middle" font-family="Arial" font-size="9" font-weight="bold" fill="#333">LEGEND</text>
+<line x1="30" y1="410" x2="60" y2="410" stroke="#1565c0" stroke-width="3"/>
+<text x="65" y="414" font-family="Arial" font-size="8" fill="#333">Feed / recovered process water</text>
+<line x1="30" y1="424" x2="60" y2="424" stroke="#2e7d32" stroke-width="3"/>
+<text x="65" y="428" font-family="Arial" font-size="8" fill="#333">Permeate (product)</text>
+<line x1="200" y1="410" x2="230" y2="410" stroke="#e67e22" stroke-width="3"/>
+<text x="235" y="414" font-family="Arial" font-size="8" fill="#333">Brine reject</text>
+<line x1="200" y1="424" x2="230" y2="424" stroke="#f39c12" stroke-width="1.5" stroke-dasharray="5,3"/>
+<text x="235" y="428" font-family="Arial" font-size="8" fill="#333">DC electrical (dashed)</text>
+<circle cx="345" cy="410" r="7" fill="white" stroke="#555" stroke-width="1"/>
+<text x="345" y="413.5" text-anchor="middle" font-family="Arial" font-size="6" fill="#333">XX</text>
+<text x="357" y="414" font-family="Arial" font-size="8" fill="#333">Field instrument (ISA 5.1)</text>
+<line x1="345" y1="424" x2="375" y2="424" stroke="#6a1b9a" stroke-width="1" stroke-dasharray="4,2"/>
+<text x="380" y="428" font-family="Arial" font-size="8" fill="#333">Chemical dosing (dashed)</text>
+
+<!-- NOTES BOX -->
+<rect x="430" y="380" width="450" height="52" fill="#f9f9f9" stroke="#ccc" stroke-width="1" rx="3"/>
+<text x="655" y="395" text-anchor="middle" font-family="Arial" font-size="9" font-weight="bold" fill="#333">DESIGN NOTES</text>
+<text x="440" y="407" font-family="Arial" font-size="7.5" fill="#555">1. All HP piping: SS316L, PN80 rated. LP piping: HDPE PN10.</text>
+<text x="440" y="418" font-family="Arial" font-size="7.5" fill="#555">2. PSV-01 relief valve set 70 bar on HP pump outlet. VFD on P-02 motor.</text>
+<text x="440" y="429" font-family="Arial" font-size="7.5" fill="#555">3. Design basis: π=28.4 bar (van't Hoff), CP=1.49, NDP=17.7 bar, SEC=3.5 kWh/m³.</text>
+
+</svg>
